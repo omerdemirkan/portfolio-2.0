@@ -1,11 +1,13 @@
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Home() {
     return (
-        <div>
+        <Layout activePath="/">
             <Head>
                 <title>Omer Demirkan - Home</title>
             </Head>
-        </div>
+            <h1>👋 Hi There! I’m Omer</h1>
+        </Layout>
     );
 }

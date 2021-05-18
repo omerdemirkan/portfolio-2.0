@@ -84,7 +84,7 @@ function aboutMePage() {
 
             <h1 style={{ marginBottom: "0" }}>🏫 Education</h1>
             {education.map((e) => (
-                <ContentBlock {...e} />
+                <ContentBlock {...e} key={e.title} />
             ))}
 
             <br />
@@ -92,7 +92,7 @@ function aboutMePage() {
 
             <h1 style={{ marginBottom: "0" }}>💼 Experience</h1>
             {expriences.map((e) => (
-                <ContentBlock {...e} />
+                <ContentBlock {...e} key={e.title} />
             ))}
 
             <br />
@@ -100,7 +100,7 @@ function aboutMePage() {
 
             <h1 style={{ marginBottom: "0" }}>🏆 Achievements</h1>
             {achievements.map((a) => (
-                <ContentBlock {...a} />
+                <ContentBlock {...a} key={a.title} />
             ))}
 
             <br />
@@ -108,7 +108,7 @@ function aboutMePage() {
 
             <h1 style={{ marginBottom: "0" }}>💻 Notable Projects</h1>
             {projects.map((p) => (
-                <ContentBlock {...p} />
+                <ContentBlock {...p} key={p.title} />
             ))}
 
             <br />

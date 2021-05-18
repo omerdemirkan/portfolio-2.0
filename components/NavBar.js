@@ -5,7 +5,7 @@ import Link from "next/link";
 const navigationElements = [
     { label: "home", path: "/" },
     { label: "about me", path: "/about-me" },
-    { label: "contact me", path: "/contact-me" },
+    { label: "contact me", path: "mailto:omerfarukpiano@gmail.com" },
 ];
 
 function NavBar({ activePath }) {

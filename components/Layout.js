@@ -16,7 +16,7 @@ function Layout({ children, activePath }) {
                 }
 
                 .layout main {
-                    padding: 4rem 0;
+                    padding: 4rem 0 16rem;
                 }
             `}</style>
         </div>

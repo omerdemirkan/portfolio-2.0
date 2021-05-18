@@ -29,13 +29,11 @@ export default function Home() {
                             </Button>
                         </a>
                     </Link>
-                    <Link href="/contact-me">
-                        <a>
-                            <Button variant="text" fullWidth>
-                                Contact Me
-                            </Button>
-                        </a>
-                    </Link>
+                    <a href="mailto:omerfarukpiano@gmail.com">
+                        <Button variant="text" fullWidth>
+                            Contact Me
+                        </Button>
+                    </a>
                 </div>
             </div>
 

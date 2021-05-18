@@ -79,3 +79,11 @@ p {
 hr {
   opacity: 0.35;
 }
+
+.accent {
+  color: var(--accent);
+}
+
+.underline {
+  text-decoration: underline;
+}

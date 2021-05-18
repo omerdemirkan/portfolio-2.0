@@ -5,7 +5,7 @@ function ContentBlockList({ items }) {
         <>
             <ul className="content-block-list">
                 {items.map((item) => (
-                    <li>{item}</li>
+                    <li key={item}>{item}</li>
                 ))}
             </ul>
             <style jsx>{`

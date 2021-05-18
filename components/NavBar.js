@@ -11,11 +11,15 @@ const navigationElements = [
 function NavBar({ activePath }) {
     return (
         <div className="navbar-container">
-            <Logo />
+            <Link href="/">
+                <a>
+                    <Logo />
+                </a>
+            </Link>
 
             <nav>
                 {navigationElements.map(({ path, label }) => (
-                    <Link href={path}>
+                    <Link href={path} key={path}>
                         <a
                             style={{
                                 textDecoration:

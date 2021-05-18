@@ -1,4 +1,10 @@
-function Button({ children, onClick, variant = "contained", ...buttonProps }) {
+function Button({
+    children,
+    onClick,
+    variant = "contained",
+    fullWidth = false,
+    ...buttonProps
+}) {
     return (
         <>
             <button onClick={onClick} {...buttonProps} className="button">
@@ -22,6 +28,9 @@ function Button({ children, onClick, variant = "contained", ...buttonProps }) {
                     color: ${variant === "contained"
                         ? "white"
                         : "var(--contrast-secondary)"};
+                    ${fullWidth
+                        ? "width: 100%; padding-right: 0; padding-left: 0"
+                        : ""}
                 }
             `}</style>
         </>

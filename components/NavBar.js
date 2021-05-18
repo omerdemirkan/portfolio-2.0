@@ -42,6 +42,12 @@ function NavBar({ activePath }) {
                     align-items: center;
                     width: 300px;
                 }
+
+                @media (max-width: 700px) {
+                    .navbar-container nav {
+                        display: none;
+                    }
+                }
             `}</style>
         </div>
     );

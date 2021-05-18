@@ -24,15 +24,14 @@ export default function Home() {
                 <div className="hero-button-section">
                     <Link href="/about-me">
                         <a>
-                            <Button variant="contained">See My Work</Button>
+                            <Button variant="contained" fullWidth>
+                                See My Work
+                            </Button>
                         </a>
                     </Link>
-                    <Link href="/about-me">
+                    <Link href="/contact-me">
                         <a>
-                            <Button
-                                variant="text"
-                                style={{ marginLeft: "2.5rem" }}
-                            >
+                            <Button variant="text" fullWidth>
                                 Contact Me
                             </Button>
                         </a>
@@ -47,6 +46,17 @@ export default function Home() {
                 }
                 .hero-button-section {
                     padding: 1rem 0;
+                    width: 100%;
+                    max-width: 400px;
+                    display: grid;
+                    grid-template-columns: 50% auto;
+                    grid-gap: 2rem;
+                }
+
+                @media (max-width: 500px) {
+                    .hero-button-section {
+                        grid-template-columns: 100%;
+                    }
                 }
             `}</style>
         </Layout>

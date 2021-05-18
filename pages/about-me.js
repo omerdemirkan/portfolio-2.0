@@ -120,7 +120,9 @@ function aboutMePage() {
                     Feel free to shoot me an email. Don't worry, I wont bite!
                 </h5>
                 <p> ... probably.</p>
-                <Button>Contact Me</Button>
+                <a href="mailto:omerfarukpiano@gmail.com">
+                    <Button>Contact Me</Button>
+                </a>
             </div>
 
             <style jsx>{`

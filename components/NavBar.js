@@ -33,7 +33,7 @@ function NavBar({ activePath }) {
                     overflow: auto;
                     display: flex;
                     justify-content: space-between;
-                    padding: 1.5rem 0;
+                    padding: 1.2rem 0;
                 }
 
                 .navbar-container nav {

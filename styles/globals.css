@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-  --background: #ffffff;
+  --background-primary: #eeeeee;
+  --background-secondary: #dedede;
   --contrast-primary: #353535;
   --contrast-secondary: #5c5c5c;
-  --accent: #826efd;
+  --accent: #0ad1b9;
 }
 
 * {
@@ -21,6 +22,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  font-weight: 500;
 }
 
 h1,
@@ -39,16 +41,41 @@ a {
 
 h1 {
   font-size: 2.8rem;
+  margin: 1.4rem 0;
 }
 
 h2 {
   font-size: 2rem;
+  margin: 1.3rem 0;
 }
 
 h3 {
   font-size: 1.6rem;
+  margin: 1.3rem 0;
 }
 
 h4 {
   font-size: 1.4rem;
+  margin: 1.2rem 0;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 1.2rem 0;
+}
+
+h6 {
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: 1.1rem 0;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--contrast-secondary);
+}
+
+hr {
+  opacity: 0.35;
 }

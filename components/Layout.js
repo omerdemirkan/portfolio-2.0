@@ -23,7 +23,7 @@ function Layout({ children, activePath }) {
                     </li>
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/omer-demirkan/"
+                            href="https://www.linkedin.com/in/omer-d/"
                             className="underline"
                             target="_blank"
                             rel="noopener noreferrer"

@@ -16,7 +16,11 @@ const expriences = [
         title: "Software Engineer Intern",
         subtitle: "CarpeMed, Berkeley, CA (Remote)",
         items: [
-            "Built on core features in mobile client of a bay area start-up in the healthcare/travel sector",
+            "Developed Android & IOS app for a travel/medical start-up using React Native",
+            "Coordinated with backend and UI team to launch 4 high-priority features in production",
+            "Sped up health profile update times by 400% with concurrent querying",
+            "Implemented responsive offline/airplane mode using local storage and native network APIs",
+            "Facilitated revenue streams by building subscription and B2B sign-up code functionality",
         ],
         action: "05/2021 - PRESENT",
     },

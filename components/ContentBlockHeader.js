@@ -5,7 +5,7 @@ function ContentBlockHeader({
     noAccent,
     learnMoreUrl,
 }) {
-    const titleElement = title && (
+    let titleElement = title && (
         <h3
             className={!noAccent ? "accent " : ""}
             style={{

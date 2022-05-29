@@ -8,21 +8,33 @@ const education = [
         title: "University of California, Los Angeles",
         subtitle: "Bachelor of Science, Computer Science",
         action: "2023 (Expected)",
+        items: ["GPA: 3.7", "Technical Breadth: Technology management"],
     },
 ];
 
 const expriences = [
+    {
+        title: "Web Engineer Intern",
+        subtitle: "Robinhood, Menlo Park, CA (Remote)",
+        items: [
+            "Expanded UI library impacting ~1 million weekly users for investing platform using React and Typescript",
+            "Collaborated with designers to build 6 new components to unify design language across clients",
+            "Implemented new typography underlying web products, built Figma plugin for designers to transition",
+            "Fixed bugs in layer system and open-source accessibility library with modern React APIs",
+            "Aided growth team in separating logged-out crypto detail page to Next.js to prioritize sign-ups: Sped up data fetching from ~1.4 to ~0.3 seconds by parallelizing using modern ES6 features, Migrate price ticker component, built theme logic tied to chart direction and NYSE hours, Configured dynamic metadata in request headers for SEO",
+        ],
+        action: "01/2022 - 04/2022",
+    },
     {
         title: "Software Engineer Intern",
         subtitle: "CarpeMed, Berkeley, CA (Remote)",
         items: [
             "Developed Android & IOS app for a travel/medical start-up using React Native",
             "Coordinated with backend and UI team to launch 4 high-priority features in production",
-            "Sped up health profile update times by 400% with concurrent querying",
             "Implemented responsive offline/airplane mode using local storage and native network APIs",
             "Facilitated revenue streams by building subscription and B2B sign-up code functionality",
         ],
-        action: "05/2021 - PRESENT",
+        action: "05/2021 - 09/2021",
     },
     {
         title: "Web Application Developer Intern",
@@ -56,6 +68,16 @@ const achievements = [
 ];
 
 const projects = [
+    {
+        title: "Remind Me About Bitcoin",
+        subtitle: "Automated tool that notifies you when crypto hype dies down",
+        items: [
+            'Built data aggregation pipeline from Google Trends API for keywords like "bitcoin price"',
+            "Used Firebase Cloud functions to update trends data, and send emails if attention metrics drop",
+            "Designed mock-ups in Figma and built user interface using React, Typescript and Next.js",
+        ],
+        learnMoreUrl: "https://remindmeaboutbitcoin.com",
+    },
     {
         title: "STEM-bound",
         subtitle:

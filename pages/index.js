@@ -13,8 +13,8 @@ export default function Home() {
             <div className="hero-section">
                 <h1>👋 Hi There! I’m Omer</h1>
                 <h6>
-                    Software developer, Typescript enthusiast, and third-year
-                    Computer Science major at UCLA.
+                    Software developer, Web enthusiast, and fourth-year Computer
+                    Science major at UCLA.
                 </h6>
                 <hr />
                 <p>
